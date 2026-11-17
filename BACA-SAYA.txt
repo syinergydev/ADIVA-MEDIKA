@@ -1,0 +1,4 @@
+ADIVA MEDIKA - situs statis siap upload (sudah di-build, tidak perlu npm).
+Upload ISI folder ini (index.html, assets, img, dst) ke akar repo GitHub. Pages: Settings > Pages > Deploy from a branch > main / (root).
+Perlu internet saat dibuka: GSAP (cdnjs) dan font (Google Fonts). Jika CDN gagal, situs tetap tampil tanpa animasi.
+Ubah harga: belum ditampilkan (SHOW_PRICES=false di sumber). Konfirmasi owner dulu.
