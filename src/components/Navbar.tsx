@@ -39,7 +39,7 @@ export default function Navbar() {
       <header data-nav-in className="fixed inset-x-0 top-0 z-50 px-3 pt-[max(12px,env(safe-area-inset-top))] sm:px-6">
         <nav aria-label="Navigasi utama" className="mx-auto flex max-w-6xl items-center justify-between gap-3 rounded-full border border-white/60 bg-white/80 px-4 py-2 shadow-soft backdrop-blur-md">
           <Link to="/" aria-label="ADIVA MEDIKA — Beranda" className="shrink-0">
-            <img src="/img/logo.webp" alt="ADIVA MEDIKA Rawat Luka & Khitan Modern" width={140} height={45} className="h-10 w-auto" />
+            <img src="img/logo.webp" alt="ADIVA MEDIKA Rawat Luka & Khitan Modern" width={140} height={45} className="h-10 w-auto" />
           </Link>
           <ul className="hidden items-center gap-1 lg:flex">
             {NAV.map((n) => (<li key={n.to}><NavLink to={n.to} end={n.to === '/'} className={link}>{n.label}</NavLink></li>))}

@@ -11,7 +11,7 @@ export default function Khitan() {
   return (
     <div ref={ref}>
       <Seo path="/khitan-modern" title="Khitan Modern Mojokerto — Sunat Modern ADIVA MEDIKA" description="Layanan khitan modern di Mojokerto oleh ADIVA MEDIKA, memperhatikan kondisi dan kenyamanan anak. Tersedia pertanyaan khitan di rumah." />
-      <PageHero eyebrow="Khitan Modern" title="Khitan Modern dengan Pelayanan yang Memperhatikan Kenyamanan Anak." text="ADIVA MEDIKA menyediakan layanan khitan modern dengan pendekatan yang memperhatikan kondisi, kebutuhan, dan kenyamanan pasien." image="/img/khitan-go.webp" alt="Materi Go Khitan ADIVA MEDIKA" msg={WA_MSG.khitan} />
+      <PageHero eyebrow="Khitan Modern" title="Khitan Modern dengan Pelayanan yang Memperhatikan Kenyamanan Anak." text="ADIVA MEDIKA menyediakan layanan khitan modern dengan pendekatan yang memperhatikan kondisi, kebutuhan, dan kenyamanan pasien." image="img/khitan-go.webp" alt="Materi Go Khitan ADIVA MEDIKA" msg={WA_MSG.khitan} />
 
       <section className="section">
         <div className="container-x">
@@ -44,7 +44,7 @@ export default function Khitan() {
       <section className="section">
         <div className="container-x">
           <Heading eyebrow="Khitan di Rumah" title="Khitan Lebih Nyaman di Lingkungan yang Dikenal Anak." text="Materi layanan menyebut khitan datang ke rumah. Ketersediaan per lokasi dan jadwal dikonfirmasi terlebih dahulu." />
-          <div data-mask className="mx-auto max-w-md overflow-hidden"><img src="/img/khitan-combo.webp" alt="Materi khitan metode Combo Sealer" loading="lazy" className="w-full" /></div>
+          <div data-mask className="mx-auto max-w-md overflow-hidden"><img src="img/khitan-combo.webp" alt="Materi khitan metode Combo Sealer" loading="lazy" className="w-full" /></div>
         </div>
       </section>
 

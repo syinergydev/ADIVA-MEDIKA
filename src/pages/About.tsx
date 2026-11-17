@@ -23,7 +23,7 @@ export default function About() {
       <section className="section bg-soft">
         <div className="container-x">
           <Heading eyebrow="Tenaga Medis" title="Achmad Afif Maulana, S.Kep., Ns., CBWCN" text="Perawat bersertifikasi perawatan luka modern, sesuai materi yang diberikan owner." />
-          <div data-mask className="mx-auto max-w-md overflow-hidden"><img src="/img/wound-afif.webp" alt="Achmad Afif Maulana, S.Kep., Ns., CBWCN, tenaga medis ADIVA MEDIKA" loading="lazy" className="w-full" /></div>
+          <div data-mask className="mx-auto max-w-md overflow-hidden"><img src="img/wound-afif.webp" alt="Achmad Afif Maulana, S.Kep., Ns., CBWCN, tenaga medis ADIVA MEDIKA" loading="lazy" className="w-full" /></div>
         </div>
       </section>
       <Credentials />

@@ -18,7 +18,7 @@ export default function Wound() {
   return (
     <div ref={ref}>
       <Seo path="/rawat-luka" title="Rawat Luka Mojokerto — Perawatan Luka di Rumah | ADIVA MEDIKA" description="Informasi perawatan luka modern ADIVA MEDIKA di Mojokerto: luka operasi, kronis, diabetes, dan dekubitus dengan pendekatan homecare." />
-      <PageHero eyebrow="Rawat Luka" title="Perawatan Luka Modern dengan Pendekatan yang Tepat dan Terarah." text="ADIVA MEDIKA menyediakan informasi layanan perawatan luka dengan pendekatan homecare, sehingga pasien dapat menanyakan kemungkinan pelayanan di rumah." image="/img/wound-afif.webp" alt="Achmad Afif Maulana, S.Kep., Ns., CBWCN, perawat perawatan luka" msg={WA_MSG.luka} />
+      <PageHero eyebrow="Rawat Luka" title="Perawatan Luka Modern dengan Pendekatan yang Tepat dan Terarah." text="ADIVA MEDIKA menyediakan informasi layanan perawatan luka dengan pendekatan homecare, sehingga pasien dapat menanyakan kemungkinan pelayanan di rumah." image="img/wound-afif.webp" alt="Achmad Afif Maulana, S.Kep., Ns., CBWCN, perawat perawatan luka" msg={WA_MSG.luka} />
       <section className="section">
         <div className="container-x">
           <Heading eyebrow="Jenis Luka" title="Jenis luka yang dapat ditanyakan." />

@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div data-foot className="h-px w-full bg-white/15" />
         <div data-foot className="flex flex-col items-center gap-4">
-          <span className="rounded-2xl bg-white p-3"><img src="/img/logo.webp" alt="Logo ADIVA MEDIKA" width={180} height={57} loading="lazy" className="h-12 w-auto" /></span>
+          <span className="rounded-2xl bg-white p-3"><img src="img/logo.webp" alt="Logo ADIVA MEDIKA" width={180} height={57} loading="lazy" className="h-12 w-auto" /></span>
           <p className="max-w-md text-sm leading-relaxed text-white/75">Layanan khitan modern dan perawatan luka dengan pendekatan homecare yang mengutamakan kenyamanan, perhatian, dan profesionalitas di Mojokerto.</p>
         </div>
         <ul data-foot className="flex max-w-xl flex-wrap justify-center gap-x-5 gap-y-2 text-sm font-semibold">

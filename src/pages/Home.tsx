@@ -38,7 +38,7 @@ export default function Home() {
       <section className="hero-bg relative overflow-hidden pb-16 pt-32 text-center sm:pt-40">
         <div aria-hidden="true" className="ambient pointer-events-none absolute -left-24 top-24 size-80 rounded-full bg-sky/20 blur-3xl" />
         <div className="container-x relative flex flex-col items-center">
-          <img data-logo src="/img/logo.webp" alt="Logo ADIVA MEDIKA Rawat Luka & Khitan Modern" width={260} height={83} className="mb-6 h-16 w-auto sm:h-20" fetchPriority="high" />
+          <img data-logo src="img/logo.webp" alt="Logo ADIVA MEDIKA Rawat Luka & Khitan Modern" width={260} height={83} className="mb-6 h-16 w-auto sm:h-20" fetchPriority="high" />
           <h1 aria-label={HEADLINE} className="max-w-5xl text-4xl leading-[1.1] sm:text-6xl lg:text-7xl">
             {HEADLINE.split(' ').map((w, i) => (
               <span key={i} aria-hidden="true" className="inline-block overflow-hidden pb-1 align-bottom"><span data-word className="inline-block">{w}&nbsp;</span></span>
@@ -50,8 +50,8 @@ export default function Home() {
             <Link data-cta to="/layanan" className="btn btn-ghost">Lihat Layanan Kami</Link>
           </div>
           <div data-hero-img className="mt-12 grid w-full max-w-3xl grid-cols-2 gap-4">
-            <img src="/img/khitan-go.webp" alt="Materi layanan khitan ADIVA MEDIKA" className="w-full rounded-[1.75rem] shadow-soft" />
-            <img src="/img/wound-afif.webp" alt="Tenaga medis perawatan luka ADIVA MEDIKA" className="w-full rounded-[1.75rem] shadow-soft sm:translate-y-8" />
+            <img src="img/khitan-go.webp" alt="Materi layanan khitan ADIVA MEDIKA" className="w-full rounded-[1.75rem] shadow-soft" />
+            <img src="img/wound-afif.webp" alt="Tenaga medis perawatan luka ADIVA MEDIKA" className="w-full rounded-[1.75rem] shadow-soft sm:translate-y-8" />
           </div>
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function Home() {
       <section className="section bg-soft">
         <div className="container-x text-center">
           <Heading eyebrow="Homecare Experience" title="Perawatan Lebih Dekat, Nyaman dari Rumah." text="Pasien atau keluarga dapat menanyakan kemungkinan kunjungan ke rumah. Jenis layanan, lokasi, dan jadwal dikonfirmasi bersama tim sebelum kunjungan." />
-          <div data-reveal className="mx-auto max-w-sm overflow-hidden rounded-[2rem] shadow-soft"><img data-parallax src="/img/khitan-combo.webp" alt="Materi khitan di rumah ADIVA MEDIKA" loading="lazy" className="w-full" /></div>
+          <div data-reveal className="mx-auto max-w-sm overflow-hidden rounded-[2rem] shadow-soft"><img data-parallax src="img/khitan-combo.webp" alt="Materi khitan di rumah ADIVA MEDIKA" loading="lazy" className="w-full" /></div>
           <Link data-reveal to="/homecare" className="btn btn-primary mt-8">Pelajari Homecare<ArrowRight className="size-4" /></Link>
         </div>
       </section>

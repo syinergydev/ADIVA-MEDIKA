@@ -17,3 +17,8 @@ Setelah punya domain, ganti `https://GANTI-DOMAIN.com` di: public/sitemap.xml, p
 - Foto pasien (15.02.19) TIDAK dipakai karena belum ada izin publikasi. Poster harga (15.02.20) dan promo berharga tidak ditampilkan.
 - "Member Of" sengaja tidak dibuat: tidak ada bukti keanggotaan di ZIP.
 - Tidak ada video di ZIP.
+
+## GitHub Pages
+Situs memakai HashRouter dan base './' agar jalan di subfolder (mis. user.github.io/ADIVA-MEDIKA/).
+Unggah SELURUH proyek ini (bukan hanya dist). Di GitHub: Settings → Pages → Source: "GitHub Actions". Push ke branch main, build otomatis lewat .github/workflows/deploy.yml.
+Jangan unggah file sumber lalu memilih "Deploy from a branch": index.html sumber akan tampil putih.
